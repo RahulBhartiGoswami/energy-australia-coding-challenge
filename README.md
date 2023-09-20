@@ -17,8 +17,6 @@ Beta Festival
 - [About](#about)
 - [Setup the environment](#setup-the-environment)
 - [Run the application](#prerequisites)
-- [Installation](#installation)
-- [Types of Responses](#types-of-responses)
 
 
 
@@ -31,6 +29,6 @@ Install the Angular CLI, this project is using Angular version 14, run the comma
 
 ## Run the application
 
-Run the commang npm install to download the required dependencies
-Run the command ng serve to run the application
-Now go to the localhost:4200 on your browser, Kindly note that we are using the mock data to load the data.
+Run the commang **npm install** to download the required dependencies
+Run the command **ng serve** to run the application
+Now go to the **localhost:4200** on your browser, Kindly note that we are using the mock data to load the data.
