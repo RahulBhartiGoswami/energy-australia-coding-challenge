@@ -1,27 +1,36 @@
-# EaAusCodingEvaluation
+## The Problem
+Your team is tasked with listing out music festival data in a particular manner: at the top level, it should show the band record label, below that it should list out all bands under their management, and below that it should display which festivals they've attended, if any. All entries should be sorted alphabetically.
+For example:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.12.
+Record Label 1
+Band X
+Omega Festival
+Band Y
+Record Label 2
+Band A
+Alpha Festival
+Beta Festival
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of Contents
 
-## Code scaffolding
+- [About](#about)
+- [Setup the environment](#setup-the-environment)
+- [Run the application](#prerequisites)
+- [Installation](#installation)
+- [Types of Responses](#types-of-responses)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## About
+This project is used to provide solution to the problem above in the Problem section.
 
-## Running unit tests
+## Setup the environment
+Install the Node from the official website https://nodejs.org/en/download
+Install the Angular CLI, this project is using Angular version 14, run the command npm install - g @angular/cli@14
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Run the application
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Run the commang npm install to download the required dependencies
+Run the command ng serve to run the application
+Now go to the localhost:4200 on your browser, Kindly note that we are using the mock data to load the data.
