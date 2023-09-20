@@ -1,0 +1,16 @@
+<div class="main-box" *ngFor="let recordLabel of sortedData">
+  <mat-card class="mat-elevation-z2">
+    <h2>{{recordLabel.label}}</h2>
+
+    <div *ngFor="let band of recordLabel.bands">
+      <mat-card class="mat-elevation-z1">
+        <h3> {{band.name}} </h3>
+        <mat-list>
+          <mat-list-item *ngFor="let festival of getFestivals(band)">
+            {{festival}}
+          </mat-list-item>
+        </mat-list>
+      </mat-card>
+    </div>
+  </mat-card>
+</div>
